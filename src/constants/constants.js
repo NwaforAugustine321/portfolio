@@ -4,7 +4,7 @@ export const projects = [
 		description:
 			'Using React, Node.js, Express & MongoDB  I build a Full Stack MERN Application - from start to finish. The App is called Reddish-Clone',
 		image: '/images/reddish.png',
-		tags: ['Mongo', 'Express', 'React', 'Node'],
+		tags: ['Mongo', 'Express', 'Node'],
 		source: '#',
 		visit: 'https://reddish-clone.netlify.app/',
 		id: 0,
