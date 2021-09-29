@@ -30,6 +30,7 @@ export default class MyDocument extends Document {
 		return (
 			<Html lang='en'>
 				<title>Nwafor Augustine</title>
+				<link rel='shortcut icon' href='../images/austine.png' type='image/x-icon'></link>
 				<body>
 					<Main />
 					<NextScript />
