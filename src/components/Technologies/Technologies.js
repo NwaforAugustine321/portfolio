@@ -17,7 +17,7 @@ const Technologies = () => (
 					<ListTitle>Front-End</ListTitle>
 					<ListParagraph>
 						Experiece with <br />
-						React.js & Redux
+						React.js & Redux, Next.js
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
