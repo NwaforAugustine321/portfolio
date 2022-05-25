@@ -1,41 +1,51 @@
 export const projects = [
-	{
-		title: 'Reddish-Clone',
-		description:
-			'Using React, Node.js, Express & MongoDB  I build a Full Stack MERN Application - from start to finish. The App is called Reddish-Clone',
-		image: '/images/reddish.png',
-		tags: ['Mongo', 'Express', 'Node'],
-		source: '#',
-		visit: 'https://reddish-clone.netlify.app/',
-		id: 0,
-	},
-	{
-		title: 'E-Commerce',
-		description: 'While building it I learnt many advanced React & JavaScript, as well as how to use Paystack for card transactions.',
-		image: '/images/e-commerce.png',
-		tags: ['React', 'JavaScript'],
-		source: '#',
-		visit: 'https://react-eccomerce.netlify.app/',
-		id: 1,
-	},
-	{
-		title: 'Dashboard-Page UI',
-		description: 'This is a code repository for the corresponding Dashboard-Page UI',
-		image: '/images/user-dashboard.png',
-		tags: ['React', 'Material UI', 'Mysql'],
-		source: '#',
-		visit: 'https://sp-vendor-dev.web.app/',
-		id: 2,
-	},
-	{
-		title: 'Gag-project',
-		description: 'This is a Gag-project',
-		image: '/images/gag-project.png',
-		tags: ['React', '', 'MngoDB'],
-		source: '#',
-		visit: 'https://gacsproject.ukonudennis63.now.sh/',
-		id: 3,
-	},
+  {
+    title: 'Reddish-Clone',
+    description: '',
+    image: '/images/reddish.png',
+    tags: ['Mongo', 'Express', 'Nodejs'],
+    source: 'https://github.com/NwaforAugustine321/reddish-clone',
+    visit: 'https://github.com/NwaforAugustine321/reddish-clone',
+    id: 0,
+  },
+
+  {
+    title: 'Property Baron Network',
+    description: '',
+    image: '/images/pbn.png',
+    tags: ['React', 'JavaScript'],
+    source: '#',
+    visit: 'https://pbn.korentdigitals.xyz/',
+    id: 1,
+  },
+
+  {
+    title: 'E-Commerce',
+    description: '',
+    image: '/images/e-commerce.png',
+    tags: ['React', 'JavaScript'],
+    source: '#',
+    visit: 'https://react-eccomerce.netlify.app/',
+    id: 2,
+  },
+  {
+    title: 'Dashboard-Page UI',
+    description: '',
+    image: '/images/user-dashboard.png',
+    tags: ['React', 'Material UI', 'Mysql'],
+    source: 'https://github.com/NwaforAugustine321/arivanna-vendor-dashboard',
+    visit: 'https://github.com/NwaforAugustine321/arivanna-vendor-dashboard',
+    id: 3,
+  },
+  {
+    title: 'Gag-project',
+    description: '',
+    image: '/images/gag-project.png',
+    tags: ['React', 'Nodejs', 'MngoDB'],
+    source: '#',
+    visit: 'https://gacsproject.ukonudennis63.now.sh/',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
