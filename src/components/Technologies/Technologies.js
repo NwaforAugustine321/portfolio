@@ -9,7 +9,7 @@ import {
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     <SectionDivider divider />
     <SectionText>
       Language : Node.js, Golang, JavaScript, TypeScript, HTML5/CSS3 and SQL.{' '}
