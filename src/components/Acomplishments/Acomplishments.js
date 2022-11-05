@@ -11,7 +11,9 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
+    <SectionDivider />
     <SectionTitle>Contact</SectionTitle>
+    <SectionDivider />
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
@@ -20,7 +22,6 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider />
   </Section>
 );
 

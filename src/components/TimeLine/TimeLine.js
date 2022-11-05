@@ -54,68 +54,20 @@ const Timeline = () => {
 
 	return (
     <Section id='about'>
+      <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
+      <SectionDivider divider />
       <SectionText>
-        Full stack software developer with 3+ years of experience. Comfortable
-        working with JavaScript, Nodejs, Java(OOP) ,Aws Servics ,React, Redux,
-        TypeScript, Git/Github, HTML/CSS. Accomplished in creating responsive
-        web design to deliver an exceptional customer experience with good
-        communication skills.
+        Software developer and cloud engineer with 3+ year of experience
+        building innovative and cutting-edge business solutions for the
+        impressive suite of clients within its global using React.js ,
+        Angular.js, JavaScript , Node.js, Golang, Rest APIs, TypeScript,
+        HTML5/CSS3 , SQL and AWS services. Great communication with a large
+        team, understanding project requirements and delivering clear scalable
+        code in a timely fashion. Experienced in problem solving skills and
+        software development and management.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
-        <>
-          {TimeLineData.map((item, index) => (
-            <CarouselMobileScrollNode
-              key={index}
-              final={index === TOTAL_CAROUSEL_COUNT - 1}
-            >
-              <CarouselItem
-                index={index}
-                id={`carousel__item-${index}`}
-                active={activeItem}
-                onClick={(e) => handleClick(e, index)}
-              >
-                <CarouselItemTitle>
-                  {`${item.year}`}
-                  <CarouselItemImg
-                    width='208'
-                    height='6'
-                    viewBox='0 0 208 6'
-                    fill='none'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      fill-rule='evenodd'
-                      clip-rule='evenodd'
-                      d='M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z'
-                      fill='url(#paint0_linear)'
-                      fill-opacity='0.33'
-                    />
-                    <defs>
-                      <linearGradient
-                        id='paint0_linear'
-                        x1='-4.30412e-10'
-                        y1='0.5'
-                        x2='208'
-                        y2='0.500295'
-                        gradientUnits='userSpaceOnUse'
-                      >
-                        <stop stop-color='white' />
-                        <stop
-                          offset='0.79478'
-                          stop-color='white'
-                          stop-opacity='0'
-                        />
-                      </linearGradient>
-                    </defs>
-                  </CarouselItemImg>
-                </CarouselItemTitle>
-                <CarouselItemText>{item.text}</CarouselItemText>
-              </CarouselItem>
-            </CarouselMobileScrollNode>
-          ))}
-        </>
-      </CarouselContainer>
+
       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
@@ -131,7 +83,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

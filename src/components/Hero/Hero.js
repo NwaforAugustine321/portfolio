@@ -1,27 +1,21 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, SectionText } from './HeroStyles';
 
 const Hero = (props) => (
   <>
-    <Section row nopadding>
-      <LeftSection>
-        <SectionTitle main center>
-          Nwafor Augustine Onyedikachi
-        </SectionTitle>
-        <SectionText>
-          Full Stack Developer Software Developer with 3+ years of experience.
-          Comfortable working with JavaScript, Nodejs, Java(OOP) ,Aws Servics
-          ,React, Redux, TypeScript, Git/Github, HTML5/CSS3.
-        </SectionText>
-        <Button onClick={props.handleClick}>
-          <a href='https://drive.google.com/file/d/1VGLcLTn0PRqhE7fkIHAjRO05XGQG4QZS/view?usp=sharing'>
-            Download CV
-          </a>
-        </Button>
-      </LeftSection>
+    <SectionText>Hi 👋, I'm Nwafor Augustine Onyedikachi</SectionText>
+    <LeftSection>
+      <SectionText> Software Developer | Cloud Engineer</SectionText>
+    </LeftSection>
+    <Section>
+      <Button onClick={props.handleClick}>
+        <a href='https://docs.google.com/document/d/1vGtELoAPjkbiG_-Q1075DjjauhfUE-lrjqXDZLa_81c/edit?usp=sharing'>
+          Download CV
+        </a>
+      </Button>
     </Section>
   </>
 );

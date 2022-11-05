@@ -55,11 +55,10 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionText = styled.p`
-  max-width: 800px;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
+  padding-bottom: 3rem;
   color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -74,7 +73,7 @@ export const SectionText = styled.p`
     line-height: 24px;
     padding-bottom: 16px;
   }
-`
+`;
 
 export const SectionDivider = styled.div`
 
