@@ -1,19 +1,29 @@
 export const projects = [
   {
-    title: 'Reddish-Clone',
+    title: 'OdioPay',
     description: '',
-    image: '/images/reddish.png',
-    tags: ['Mongo', 'Express', 'Nodejs'],
-    source: 'https://github.com/NwaforAugustine321/reddish-clone',
-    visit: 'https://github.com/NwaforAugustine321/reddish-clone',
+    image: '/images/odiopay.png',
+    tags: ['ReactJS', 'Javascript', 'Nodejs'],
+    source: '#',
+    visit: 'https://www.odiopay.com/',
     id: 0,
+  },
+
+  {
+    title: 'whitecoat',
+    description: '',
+    image: '/images/healthcare.png',
+    tags: ['NextJS', 'JavaScript', 'HTML', 'CSS'],
+    source: '#',
+    visit: 'https://www.whitecoat.com.au/',
+    id: 1,
   },
 
   {
     title: 'Property Baron Network',
     description: '',
     image: '/images/pbn.png',
-    tags: ['React', 'JavaScript'],
+    tags: ['React', 'JavaScript', 'HTML', 'CSS'],
     source: '#',
     visit: 'https://pbn.korentdigitals.xyz/',
     id: 1,
