@@ -26,7 +26,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'HTML', 'CSS'],
     source: '#',
     visit: 'https://pbn.korentdigitals.xyz/',
-    id: 1,
+    id: 2,
   },
 
   {
@@ -36,7 +36,7 @@ export const projects = [
     tags: ['React', 'JavaScript'],
     source: '#',
     visit: 'https://react-eccomerce.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Dashboard-Page UI',
@@ -45,7 +45,7 @@ export const projects = [
     tags: ['React', 'Material UI', 'Mysql'],
     source: 'https://github.com/NwaforAugustine321/arivanna-vendor-dashboard',
     visit: 'https://github.com/NwaforAugustine321/arivanna-vendor-dashboard',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Gag-project',
@@ -54,7 +54,7 @@ export const projects = [
     tags: ['React', 'Nodejs', 'MngoDB'],
     source: '#',
     visit: 'https://gacsproject.ukonudennis63.now.sh/',
-    id: 4,
+    id: 5,
   },
 ];
 
