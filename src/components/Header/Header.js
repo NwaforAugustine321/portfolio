@@ -22,7 +22,6 @@ const Header = () => (
             src='https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif'
             width='100'
           />{' '}
-          <span>Nwafor Augustine</span>
         </a>
       </Link>
     </Div1>
