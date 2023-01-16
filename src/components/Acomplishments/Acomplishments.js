@@ -11,9 +11,9 @@ const data = [
 
 const Acomplishments = () => (
   <Section>
-    <SectionDivider />
+    <SectionDivider divider />
     <SectionTitle>Contact</SectionTitle>
-    <SectionDivider />
+    <SectionDivider divider />
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
