@@ -15,12 +15,10 @@ const Hero = (props) => (
       NodeJS, Reactjs, TypeScript, JavaScript, SQL, MongoDB, GraphQL, Rest API,
       and Grpc servers
     </SectionText>
-    {/* <LeftSection>
-      <SectionText> Software Developer | Cloud Engineer</SectionText>
-    </LeftSection> */}
+
     <Section>
       <Button onClick={props.handleClick}>
-        <a href='https://docs.google.com/document/d/1A0gXew0z9Ovq4ynmpkaUZC-Fh6Ggkr-MxmiQgaCw2cI/edit?usp=sharing'>
+        <a href='https://docs.google.com/document/d/1vGtELoAPjkbiG_-Q1075DjjauhfUE-lrjqXDZLa_81c/edit?usp=sharing'>
           Download CV
         </a>
       </Button>

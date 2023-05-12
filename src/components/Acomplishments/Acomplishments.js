@@ -13,7 +13,7 @@ const Acomplishments = () => (
   <Section>
     <SectionDivider divider />
     <SectionTitle>Contact</SectionTitle>
-    <SectionDivider divider />
+
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

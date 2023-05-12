@@ -10,11 +10,11 @@ const Technologies = () => (
   <Section id='tech'>
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
-    <SectionDivider divider />
+
     <SectionText>
       Language : Node.js, Golang, JavaScript, TypeScript, HTML5/CSS3 and SQL.{' '}
       <br />
-      Technologies : React.js, Angular.js, Express.js and AWS services.
+      Technologies : React.js, Express.js and AWS services.
       <br />
       Others : REST, APIs, Agile, OOP, GRPC.
     </SectionText>

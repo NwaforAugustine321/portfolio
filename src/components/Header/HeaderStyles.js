@@ -125,9 +125,9 @@ export const SocialIcons = styled.a`
 export const Image = styled.img`
   transition: 0.3s ease;
   color: white;
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
   padding: 8px;
   &:hover {
     background-color: #212d45;

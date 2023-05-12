@@ -51,9 +51,9 @@ const Header = () => (
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
 
-      <Image src='https://lh3.googleusercontent.com/a-/AOh14GhbDz0PoFStqczlEhhkTLeSowA_oWOrCmLYdwIG=w60-h60' />
+      <Image src='/images/austine.jpeg' />
     </Div3>
   </Container>
 );
-
+//https://lh3.googleusercontent.com/a-/AOh14GhbDz0PoFStqczlEhhkTLeSowA_oWOrCmLYdwIG=w60-h60
 export default Header;

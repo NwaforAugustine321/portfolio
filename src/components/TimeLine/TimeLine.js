@@ -56,16 +56,16 @@ const Timeline = () => {
     <Section id='about'>
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
-      <SectionDivider divider />
+
       <SectionText>
         Software developer and cloud engineer with 3+ year of experience
         building innovative and cutting-edge business solutions for the
         impressive suite of clients within its global using React.js ,
-        Angular.js, JavaScript , Node.js, Golang, Rest APIs, TypeScript,
-        HTML5/CSS3 , SQL and AWS services. Great communication with a large
-        team, understanding project requirements and delivering clear scalable
-        code in a timely fashion. Experienced in problem solving skills and
-        software development and management.
+        JavaScript , Node.js, Golang, Rest APIs, TypeScript, HTML5/CSS3 , SQL
+        and AWS services. Great communication with a large team, understanding
+        project requirements and delivering clear scalable code in a timely
+        fashion. Experienced in problem solving skills and software development
+        and management.
       </SectionText>
 
       <CarouselButtons>

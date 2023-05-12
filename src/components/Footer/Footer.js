@@ -21,13 +21,13 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem id='contact' href='tel:07031045066'>
-            ---
+            +2347031045066
           </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href='mailto:nwaforaugustine422@gmail.com'>
-            nwaforaugustine422@gmail.com
+            Nwaforaugustine422@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -43,7 +43,7 @@ const Footer = () => {
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
           <SocialIcons href='#'>
-            <Image src='https://lh3.googleusercontent.com/a-/AOh14GhbDz0PoFStqczlEhhkTLeSowA_oWOrCmLYdwIG=w60-h60' />
+            <Image src='/images/austine.jpeg' />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

@@ -8,7 +8,7 @@ const Projects = () => (
   <Section nopadding id='projects'>
     <SectionDivider divider />
     <SectionTitle>Projects</SectionTitle>
-    <SectionDivider divider />
+
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -29,7 +29,7 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={p.visit}>View Project</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              {/* <ExternalLinks href={p.source}>Source</ExternalLinks> */}
             </UtilityList>
           </BlogCard>
         );
